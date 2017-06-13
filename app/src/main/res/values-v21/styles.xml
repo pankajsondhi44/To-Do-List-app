@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DarkTheme" parent="android:Theme.Material.Wallpaper.NoTitleBar">
+
+        <item name="android:colorAccent">?attr/colorControlActivated</item>
+        <item name="android:textColorPrimary">@color/textColor_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorPrimary">@color/navigation_dark</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@color/button_background_dark</item>
+        <item name="android:navigationBarColor">@color/navigation_dark</item>
+        <item name="android:textColorSecondary">@color/textColor_dark</item>
+        <item name="android:colorPrimary">@color/navigation_dark</item>
+        <item name="android:colorPrimaryDark">@color/navigation_dark</item>
+        <item name="android:statusBarColor">@android:color/background_dark</item>
+    </style>
+</resources>

@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/settings"
-        android:orderInCategory="100"
-        android:title="Settings"
-        app:showAsAction="never" />
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/theme_dark"
+            android:title="Dark Theme"
+            android:orderInCategory="2"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/theme_light"
+            android:title="Light Theme"
+            android:orderInCategory="1"
+            app:showAsAction="never" />
+    </group>
 </menu>
